@@ -29,3 +29,10 @@ Based on the constructed Cox proportional hazards model, the following conclusio
 * the presence of diabetes mellitus increases the risk of death by 3.3 times, and taking into account the 95% confidence level, the confidence interval is from 1.67 to 6.51 times;
 * stimulation mode A reduces the risk of death by an average of 0.44 times;
 * third type of SSSU - 2.7 times (taking into account a confidence probability of 95%, confidence interval - from 1.56 to 4.67 times).
+
+![изображение](https://github.com/byberni/msc-dissertation-survival-analysis/assets/143712969/a8af0de4-3777-45aa-ad0f-5264ef266df8)
+
+
+
+
+Research Article
