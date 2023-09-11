@@ -32,7 +32,8 @@ Based on the constructed Cox proportional hazards model, the following conclusio
 
 
 ![изображение](https://github.com/byberni/msc-dissertation-survival-analysis/assets/143712969/a8af0de4-3777-45aa-ad0f-5264ef266df8)
-**GUI of R App for Medical Researchers**
+
+**Fig. 1** GUI of R App for Medical Researchers.
 
 
 
