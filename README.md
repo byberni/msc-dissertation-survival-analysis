@@ -40,3 +40,67 @@ Based on the constructed Cox proportional hazards model, the following conclusio
 
 
 [Research Article (in Russian).](https://github.com/byberni/msc-dissertation-survival-analysis/blob/main/Research%20Article.pdf)
+
+
+
+# V. How to use
+Run the code belove on your R Studio.
+
+```R
+library(shiny)
+# Define UI for dataset viewer app ----
+ui <- fluidPage(
+ 
+ # App title ----
+ titlePanel("Survival analysis"),
+ 
+ # Sidebar layout with a input and output definitions ----
+ sidebarLayout(
+ 
+ # Sidebar panel for inputs ----
+ sidebarPanel(
+ h2("Input data"),
+ 
+ # Input: Numeric entry for age ----
+ numericInput(inputId = "age", label = "Age:", value = 40),
+ # Input: Button for SD ----
+ checkboxInput("SD", label = "Diabetes", value = TRUE),
+ # Input: Button for IM ----
+ checkboxInput("IM", label = "Myocardial infarction:", value = TRUE),
+ # Input: Button for SSU 3 ----
+ checkboxInput("SSU3", label = "Type of SSU #3:", value = TRUE),
+ # Input: Button for Regime A ----
+ checkboxInput("RegimeA", label = "Stimulation Regime A:", value = TRUE)),
+ 
+ # Main panel for displaying outputs ----
+ mainPanel(h2("Result"),
+ # Output: Text the risk of death ----
+ textOutput("text"),
+h2("Plot"),
+ # Output: Plot of the risk function
+ plotOutput("plot")
+ )
+ )
+)
+# Define server logic to summarize and view selected dataset ----
+server <- function(input, output) {
+ dataInput <- reactive({seq(input$age, len = 65, by = 1)
+ })
+ 
+ # Show the risk of death ----
+ output$text <- renderText({
+ paste("Risk of death probability increases ", exp(0.063*input$age + 1.19*input$SD + 
+1.07*input$IM + 0.99*input$SSU3 - 0.81*input$RegimeA), " times")
+ })
+ output$plot <- renderPlot({
+ x <- dataInput()
+ plot(x, exp(0.063*x + 1.19*input$SD + 1.07*input$IM + 0.99*input$SSU3 -
+0.81*input$RegimeA), type = "o", col = "red",
+ xlab = "Age", ylab = "Risk of death", frame.plot = TRUE,
+ main = "The graph of the dynamics of the risk of death depending on the age")
+ }) 
+}
+# Create Shiny app ----
+shinyApp(ui = ui, server = server)
+
+```
