@@ -30,7 +30,7 @@ Based on the constructed Cox proportional hazards model, the following conclusio
 * stimulation mode A reduces the risk of death by an average of 0.44 times;
 * third type of SSSU - 2.7 times (taking into account a confidence probability of 95%, confidence interval - from 1.56 to 4.67 times).
 
-**GUI of Application for Medical Researchers:**
+**GUI of R App for Medical Researchers:**
 ![изображение](https://github.com/byberni/msc-dissertation-survival-analysis/assets/143712969/a8af0de4-3777-45aa-ad0f-5264ef266df8)
 
 
