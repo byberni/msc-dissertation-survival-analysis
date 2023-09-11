@@ -31,10 +31,12 @@ Based on the constructed Cox proportional hazards model, the following conclusio
 * third type of SSSU - 2.7 times (taking into account a confidence probability of 95%, confidence interval - from 1.56 to 4.67 times).
 
 
-![изображение](https://github.com/byberni/msc-dissertation-survival-analysis/assets/143712969/a8af0de4-3777-45aa-ad0f-5264ef266df8)  
+<p align="center">
+  <img src="https://github.com/byberni/msc-dissertation-survival-analysis/assets/143712969/a8af0de4-3777-45aa-ad0f-5264ef266df8" />
+</p>
 
 
-<p style="text-align: center;">**Fig. 1** GUI of R App for Medical Researchers.</p>
+<p align="center"> Fig. 1. GUI of R App for Medical Researchers</p>
 
 
 [Research Article (in Russian).](https://github.com/byberni/msc-dissertation-survival-analysis/blob/main/Research%20Article.pdf)
