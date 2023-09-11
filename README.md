@@ -14,7 +14,7 @@ This work provided survival analysis for patients with cardiovascular diseases a
 ### III. Key Results 
 As part of this work, the following tasks were completed:
 1. A methodology has been developed to estimate the survival function taking into account the influence of control variables.
-2. An experimental design has been developed for statistical assessments of survival functions for patients with SSSS.
+2. An experimental design has been developed for statistical assessments of survival functions for patients with SSNS.
 3. Signs that influence the risk of death in the long term have been selected.
 4. A survival model was developed taking into account the selected characteristics.
 5. Information support has been developed for assessing death risk multipliers.
@@ -36,4 +36,4 @@ Based on the constructed Cox proportional hazards model, the following conclusio
 
 
 
-Research Article
+Research Article (in Russian).
