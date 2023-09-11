@@ -6,7 +6,7 @@
 
 
 ### I. Motivation
-
+One of the modern and effective methods of treating cardiovascular diseases is the installation of a pacemaker. However, for cardiologists, the question arises in assessing the average survival rate of patients after an appropriate operation to install a stimulator, in our case, in the presence of sick sinus syndrome (SSNS) in patients.
 
 ### II. Problem
 This work provided survival analysis for patients with cardiovascular diseases after permanent pacemaker implantation in a four-year perspective. The Cox model showed which predictor has an influence on mortality.
