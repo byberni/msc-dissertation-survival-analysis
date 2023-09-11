@@ -36,4 +36,4 @@ Based on the constructed Cox proportional hazards model, the following conclusio
 
 
 
-Research Article (in Russian).
+[Research Article (in Russian).](https://github.com/byberni/msc-dissertation-survival-analysis/blob/main/Research%20Article.pdf)
